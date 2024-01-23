@@ -264,12 +264,4 @@ target_link_libraries(${OPT_EXE_NAME}
     Qt5::Network
 )
 
-add_custom_target(misc SOURCES
-    .gitignore
-    LICENSE.txt
-    README.md
-    NOTES.txt
-    release/make-release-linux.sh
-    release/assets/linux/make-desktop-file.sh
-    release/assets/linux/oplpctools.sh
-)
+install(TARGET ${OPT_EXE_NAME})

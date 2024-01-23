@@ -264,4 +264,4 @@ target_link_libraries(${OPT_EXE_NAME}
     Qt5::Network
 )
 
-install(TARGET ${OPT_EXE_NAME})
+install(TARGETS ${OPT_EXE_NAME})
